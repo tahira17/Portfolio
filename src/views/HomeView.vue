@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img src="../assets/imgs/profe.jpg"
+        <img src="../assets/imgs/profile.jpg"
             class="w-[180px] h-[180px] sm:w-[200px] sm:h-[200px] mx-auto rounded-full shadow-md" :alt="PictureHere">
         <h1 class="mt-8 mb-4 text-center text-3xl sm:text-4xl uppercase font-bold dark:text-white">Tahira Nawaz</h1>
         <hr class="border-1 my-4 border-gray-400 w-14 mx-auto ">
