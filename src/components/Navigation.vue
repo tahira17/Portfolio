@@ -13,24 +13,24 @@
           <RouterLink to="/"></RouterLink>
           <RouterLink
             to="/"
-            class="m-1 px-4 py-2 border-2 border-blue-600 rounded-full hover:bg-blue-600 hover:text-white hover:transition-all hover:duration-300 dark:text-white"
+            class="m-1 px-4 py-2 border-2 border-purple-600 rounded-full hover:bg-purple-600 hover:text-white hover:transition-all hover:duration-300 dark:text-white"
           >Home</RouterLink>
           <RouterLink
             to="/about"
-            class="m-1 px-4 py-2 border-2 border-blue-600 rounded-full hover:bg-blue-600 hover:text-white hover:transition-all hover:duration-300 dark:text-white"
+            class="m-1 px-4 py-2 border-2 border-purple-600 rounded-full hover:bg-purple-600 hover:text-white hover:transition-all hover:duration-300 dark:text-white"
           >About</RouterLink>
           <RouterLink
             to="/gitproject"
-            class="m-1 px-4 py-2 border-2 border-blue-600 rounded-full hover:bg-blue-600 hover:text-white hover:transition-all hover:duration-300 dark:text-white"
+            class="m-1 px-4 py-2 border-2 border-purple-600 rounded-full hover:bg-purple-600 hover:text-white hover:transition-all hover:duration-300 dark:text-white"
           >Git Projects</RouterLink>
           <RouterLink
             to="/liveproject"
-            class="m-1 px-4 py-2 border-2 border-blue-600 rounded-full hover:bg-blue-600 hover:text-white hover:transition-all hover:duration-300 dark:text-white"
+            class="m-1 px-4 py-2 border-2 border-purple-600 rounded-full hover:bg-purple-600 hover:text-white hover:transition-all hover:duration-300 dark:text-white"
           >Live Projects</RouterLink>
-          <RouterLink
+          <!-- <RouterLink
             to="/resume"
-            class="m-1 px-4 py-2 border-2 border-blue-600 rounded-full hover:bg-blue-600 hover:text-white hover:transition-all hover:duration-300 dark:text-white"
-          >Resume</RouterLink>
+            class="m-1 px-4 py-2 border-2 border-purple-600 rounded-full hover:bg-purple-600 hover:text-white hover:transition-all hover:duration-300 dark:text-white"
+          >Resume</RouterLink> -->
         </li>
       </ul>
     </nav>
@@ -73,12 +73,12 @@ export default {
 }
 
 .topnav a:hover {
-  background-color: blue;
+  background-color: purple;
   color: white;
 }
 
 .topnav a.active {
-  background-color: blue;
+  background-color: purple;
   color: white;
 }
 
