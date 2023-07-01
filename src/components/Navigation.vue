@@ -57,7 +57,7 @@ export default {
   
   <style scoped>
 .icon {
-  background: #8dbdfffa !important;
+  background: purple !important;
 }
 .topnav {
   overflow: hidden;
