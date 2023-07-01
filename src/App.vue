@@ -5,7 +5,9 @@
       <button @click="toggleDarkMode" class="animate-pulse">
         <ModeToggler :class="isDarkMode ? 'fa-solid fa-sun' : 'fa-solid fa-moon'" />
       </button>
-      <CardHeader />
+      <!-- <CardHeader />
+       -->
+       <Navigation />
       <RouterView />
       <CardFooter />
     </div>
@@ -13,6 +15,7 @@
 </template>
 
 <script setup>
+import Navigation from './components/Navigation.vue'
 import ModeToggler from './components/ModeToggler.vue';
 import CardHeader from './components/CardHeader.vue';
 import CardFooter from './components/CardFooter.vue';
